@@ -1,0 +1,7 @@
+.epiBox{
+    /* border: 1px solid whitesmoke; */
+    width: 52%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(10,auto);
+}

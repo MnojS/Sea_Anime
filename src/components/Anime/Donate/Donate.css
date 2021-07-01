@@ -1,0 +1,12 @@
+.donateButton{
+    font-size: larger;
+    width: 10%;
+    height: 6vh;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.donateBar{
+    margin-left: 10%;
+    width: 80%;
+    height: 13vh;
+}

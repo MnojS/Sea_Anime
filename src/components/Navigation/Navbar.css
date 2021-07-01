@@ -1,0 +1,6 @@
+.AppBar{
+    background-color: transparent;
+}
+.grow{
+    flex-grow: 1;
+}
