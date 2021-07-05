@@ -1,0 +1,51 @@
+.wrapper{
+    display: flex;
+    overflow: scroll;
+    margin-left: 10%;
+    /* border: 3px solid rgb(199, 28, 28); */
+    outline: none;
+    width: 80%;
+    box-sizing: content-box;
+}
+.favorite{
+  position: initial;
+  margin-top: 120%;
+  margin-left: 70%
+}
+.favorite:hover{
+  color: rgb(243, 23, 8);
+}
+.NoLike{
+  color: grey;
+}
+.Liked{
+  color: red;
+}
+.media{
+    height: 250px;
+    width: 170px;
+    padding-top: 57px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+.media:hover{
+    transform: scale(1.1);
+}
+
+.PopularContainer{
+    padding: 5px;
+
+    /* margin: 5px; */
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: transparent; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.836); 
+  }

@@ -13,6 +13,7 @@ const Toolbar = () => {
           <h1 className="navbar-logo">
           </h1>
           <ul className="nav-menu">
+  
             {NavigationItem.map((items) => {
               return (
                 <li key={items.title}>

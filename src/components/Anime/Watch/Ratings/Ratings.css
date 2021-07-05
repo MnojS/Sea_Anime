@@ -1,0 +1,47 @@
+
+  .ratings {
+    position: relative;
+    display: inline-block;
+    transform: translateX(-50%);
+  }
+  
+  .ratings input {
+    border: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+  }
+  
+  .ratings label {
+    position: relative;
+    float: right;
+    color: #C8C8C8;
+  }
+  
+  .ratings label:before {
+    margin: 5px;
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 1.5em;
+    color: #ccc;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .ratings input:checked ~ label:before {
+    color: #FFC107;
+  }
+  
+  .ratings label:hover ~ label:before {
+    color: #ffdb70;
+  }
+  
+  .ratings label:hover:before {
+    color: #FFC107;
+  }

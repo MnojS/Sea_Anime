@@ -1,0 +1,13 @@
+.animeDesc{
+    margin: 15% auto;
+    display: flex;
+}
+.animeDescCard{
+    width: 80%;
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-left: 10%;
+}
+.animeDescCard img{
+    margin-left: 45%
+}

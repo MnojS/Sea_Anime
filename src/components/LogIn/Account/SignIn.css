@@ -1,0 +1,46 @@
+.ingredient-form {
+
+}
+
+.form-control label{
+  display: block;
+  height: 5vh;
+  font-size: larger;
+  font-weight: 500;
+  padding: 5px;
+  text-align: start;
+}
+.form-control input {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  height: 5vh;
+  padding: 5px;
+}
+
+.form-control input {
+  font: inherit;
+  padding: 0.1rem 0.25rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-bottom-color: #ff2058;
+}
+.forgotPass{
+
+  text-align: end;
+}
+.ingredient-form__actions {
+  /* display: flex; */
+  margin-top: 5%;
+  align-items: flex-end;
+}
+.forgot_signUp{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}

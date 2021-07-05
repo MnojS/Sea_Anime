@@ -1,10 +1,8 @@
 .NavbarItems{
-    /* font-family: 'Pangolin', cursive; */
     background-color: rgba(17, 15, 15, 0.993);
     margin: 10px 0;
     box-sizing: border-box;
     display: block;
-    /* border: 1px solid white; */
     padding: 1px;
     width: 100%;
 }
@@ -23,17 +21,9 @@
     z-index: 90;
 
 }
-/* .navbar-logo{
-    color: white;
-    justify-self: start;
-    cursor: pointer;
-    margin-left: 0.5rem;
-} */
-
 .nav-menu{
    text-decoration: none;
-   width: 40%;
-   /* border: 1px solid red; */
+   width: 70%;
    display: block;
 }
 .nav-links{
@@ -42,11 +32,6 @@
     padding: 0.5rem 1rem;
     font-size: 17px;
 }
-/* .nav-menu:hover{
-
-    color: rgb(167, 145, 24);
-    border-bottom: 1px solid rgb(168, 154, 73);
-} */
 
 li{
     padding: 10px;
@@ -60,7 +45,6 @@ li{
 @media(min-width: 500px) {
     .NavbarItems{
         background-color: rgba(17, 15, 15, 0.993);
-        /* background: linear-gradient(90deg , rgba(10, 10, 10, 0.747) , rgb(13, 14, 14) 100%); */
         height: 55px;
         display: flex;
         justify-content: center;
@@ -80,7 +64,7 @@ li{
         grid-gap: 10px;
         list-style: none;
         text-align: center;
-        width: 50vw;
+        width: 70vw;
         justify-content: end;
         margin-right: 2rem;
     }

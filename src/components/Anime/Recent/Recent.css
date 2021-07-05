@@ -15,6 +15,12 @@
 .favorite:hover{
   color: rgb(243, 23, 8);
 }
+.NoLike{
+  color: grey;
+}
+.Liked{
+  color: red;
+}
 .media{
     height: 250px;
     width: 170px;

@@ -1,9 +1,9 @@
 import "../Toolbar/Toolbar.css"
-import { Input } from "@material-ui/core";
 import Instagram from "@material-ui/icons/Instagram";
 import AccountCircle from "@material-ui/icons/AccountCircle"
 import { Home } from "@material-ui/icons";
 import { Filter } from "@material-ui/icons";
+import Favorite from "@material-ui/icons/Favorite";
 
 
 const NavigationItem= [
@@ -14,7 +14,7 @@ const NavigationItem= [
   },
   {
     title: "Random",
-    url: "/services",
+    url: "/random",
     cName: "nav-links",
   },
   {
@@ -23,18 +23,18 @@ const NavigationItem= [
     cName: "nav-links",
   },
   {
-    title: <Filter />,
+    title: <Favorite />,
     url: "/trash",
     cName: "nav-links",
   },
   {
     title: <Instagram color="secondary" />,
-    url: "/about",
+    url: "/sign-in",
     cName: "nav-links",
   },
   {
     title: <AccountCircle color="inherit" />,
-    url: "/about",
+    url: "/sign-in",
     cName: "nav-links",
   },
 ];

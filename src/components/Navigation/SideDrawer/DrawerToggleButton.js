@@ -3,6 +3,8 @@ import "./DrawerToggleButton.css";
 import ToolbarLogo from '../../../assets/png/SeaAnime.png'
 import SideDrawer from "./SideDrawer";
 import InputBase from '@material-ui/core/InputBase';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import SearchIcon from '@material-ui/icons/Search';
 

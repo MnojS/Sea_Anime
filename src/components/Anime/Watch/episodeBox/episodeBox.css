@@ -5,3 +5,9 @@
     grid-gap: 8px;
     grid-template-columns: repeat(10,auto);
 }
+.mirror_footer{
+    width: 50%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}

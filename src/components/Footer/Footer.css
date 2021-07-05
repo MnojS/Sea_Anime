@@ -1,0 +1,48 @@
+footer{
+    background-color: black;
+}
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    height: 50vh;
+}
+
+.Box1{
+    display: grid;
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    
+}
+.Box1 span{
+    font-size: 15px;
+    font-weight:lighter;
+}
+.Box2{
+    width: 10%;
+    /* border: 1px solid white; */
+    border-left: 1px solid white;
+    display: grid;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.Box3{
+    width: 10%;
+    /* border: 1px solid white; */
+    /* border-left: 1px solid white; */
+    display: grid;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.Box4{
+    width: 40%;
+    /* border: 1px solid white; */
+    /* border-left: 1px solid white; */
+    /* padding: 20px; */
+    margin-top: 50px;
+    /* margin-bottom: 70px; */
+}
